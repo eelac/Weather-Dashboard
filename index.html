@@ -12,17 +12,29 @@
     />
   </head>
   <body>
-    <div class="jumbotron" style="margin-bottom:0px; background-color: skyblue;">
-      <h2 class="text-center" style="font-size:50px; font-weight:600;">Get Current Weather</h2>
-      <hr class="my-4">
+    <div
+      class="jumbotron"
+      style="margin-bottom: 0px; background-color: skyblue"
+    >
+      <h2 class="text-center" style="font-size: 50px; font-weight: 600">
+        Get Current Weather
+      </h2>
+      <hr class="my-4" />
     </div>
 
     <div class="container">
-      <div class="row">
-        <h3 class="text-center" style="color:black;">Enter City</h3>
+      <div class="row" style="margin-bottom: 20px">
+        <h3 class="text-center" style="color: black">Enter City</h3>
+        <span id="error"></span>
       </div>
       <div class="row form-group">
-        <input type="text" name="city" id="city" class="form-control" placeholder="City Name">
+        <input
+          type="text"
+          name="city"
+          id="city"
+          class="form-control"
+          placeholder="City Name"
+        />
         <button id="submitWeather" class="btn btn-primary">Search</button>
       </div>
     </div>
