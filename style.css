@@ -1,0 +1,95 @@
+:root {
+    --card-bg-color: rgb(238, 238, 238);
+
+    --header-bg-color: #333;
+    --white-color: #fff;
+
+    --btn-color: dodgerblue;
+}
+
+.jumbotron {
+    background-color: skyblue;
+}
+
+.display-4 {
+    font-weight: bold;
+}
+
+.container {
+    padding: 1rem;
+    display: flex;
+}
+
+.card-header {
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    width: 75%;
+    height: 2rem;
+}
+
+.btn {
+    background-color: var(--btn-color);
+    border: 1px solid var(--btn-color);
+    width: 38px;
+    height: 34px;
+    border-radius: 3px;
+    color: var(--white-color);
+}
+
+.card-display {
+    display: flex;
+    flex-direction: column;
+    width: 75%;
+    padding: 1rem;
+}
+
+.card-display-today {
+    background-color: var(--white-color);
+    padding: 1rem;
+    border: 1px solid gray;
+    border-radius: 3px;
+    line-height: 2;
+}
+
+.blue-btn {
+    background-color: dodgerblue;
+    padding:0 0.5rem;
+    border-radius: 3px;
+}
+
+.yellow-btn {
+    background-color: yellow;
+    padding:0 0.5rem;
+    border-radius: 3px;
+}
+
+.red-btn {
+    background-color: red;
+    padding:0 0.5rem;
+    border-radius: 3px;
+}
+
+.card-display-days {
+    margin-top: 1rem;
+    background-color: skyblue;
+    padding:1rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clear-button {
+    margin: 1rem auto;
+    width: 100%;
+    height: 25px;
+    background-color: lightpink;
+    border: 0;
+}
+
+.clear-button:hover {
+    transform: scale(0.98);
+    background-color: #F08080;
+}
