@@ -14,5 +14,5 @@ Type the city you want to search
 Get weather information about the city you searched  
 
 ## Links
-[Github] https://github.com/eelac/Weather-Dashboard  
-[Website] https://eelac.github.io/Weather-Dashboard/
+[Github] (https://github.com/eelac/Weather-Dashboard)  
+[Website] (https://eelac.github.io/Weather-Dashboard/)
